@@ -63,10 +63,11 @@ section {
 @media (max-width: 949px) {
   article {
     margin: 0;
-    border: 10px solid #323232;
+    border: 5px solid #323232;
     padding: 50px 20px;
     width: 100%;
     height: auto;
+    box-shadow: none;
   }
 
   h4 span {
