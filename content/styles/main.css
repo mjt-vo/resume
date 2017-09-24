@@ -60,6 +60,15 @@ h4:not(:first-of-type) {
   margin-top: 25px;
 }
 
+.skills {
+  overflow: auto;
+}
+
+.skills li {
+  width: 25%;
+  float: left;
+}
+
 @media (max-width: 949px) {
   article {
     margin: 0;
@@ -73,5 +82,11 @@ h4:not(:first-of-type) {
   h4 span {
     display: block;
     margin: 5px 0 10px 0;
+  }
+
+  .skills li {
+    margin-bottom: 10px;
+    width: 100%;
+    float: none;
   }
 }
