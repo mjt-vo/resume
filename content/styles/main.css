@@ -84,8 +84,11 @@ h4:not(:first-of-type) {
     margin: 5px 0 10px 0;
   }
 
-  .skills li {
+  li {
     margin-bottom: 10px;
+  }
+
+  .skills li {
     width: 100%;
     float: none;
   }
