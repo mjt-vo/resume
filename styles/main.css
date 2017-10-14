@@ -72,7 +72,7 @@ h4:not(:first-of-type) {
 @media (max-width: 949px) {
   article {
     margin: 0;
-    border: 5px solid #323232;
+    border: 5px solid #ababab;
     padding: 50px 20px;
     width: 100%;
     height: auto;
@@ -91,5 +91,15 @@ h4:not(:first-of-type) {
   .skills li {
     width: 100%;
     float: none;
+  }
+}
+
+@media (min-height: 1201px) {
+  article {
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
   }
 }
